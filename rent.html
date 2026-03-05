@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- ===================================== Navigation Bar ========================================= -->
+<header class="navbar">
+    <div class="container nav-content">
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <h2>FindHome</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="buy.html">Buy</a></li>
+            <li><a href="rent.html">Rent</a></li>
+            <li><a href="agent.html">Agent</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+       <a href="properties.html" class="nav-btn">View Properties</a>
+    </div>
+</header>
+
+<!-- ======================================= Rent ================================================== -->
+<div class="container">
+
+<h1 class="pge-title">Rent a home</h1>
+
+<!-- search bar -->
+
+<div class="s-box">
+<svg class="s-box-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+    <circle cx="11" cy="11" r="9"></circle>
+    <line x1="18" y1="18" x2="26" y2="26"></line>
+</svg>
+
+<input type="text" placeholder="Search by city, address, ZIP code...">
+</div>
+
+<!-- filters -->
+
+<div class="fillters">
+<button class="fillter-btn">Rent <span class="chevron1"></span></button>
+<button class="fillter-btn">All Filter <span class="chevron1"></span></button>
+</div>
+
+<p class="pge-sub">Homes of rent</p>
+<!-- property cards -->
+
+<div class="rent-cards">
+
+<div class="rent-card">
+<img src="Images/Depth 7, Frame 1.jpg" alt="">
+<div class="rent-card-content">
+<div class="rent-card-title">Cozy Apartment in Downtown</div>
+<div class="rent-card-info">2 beds • 2 baths • 1,200 sq ft</div>
+</div>
+</div>
+
+<div class="rent-card">
+<img src="Images/Depth 7, Frame 2.jpg" alt="">
+<div class="rent-card-content">
+<div class="rent-card-title">Modern Loft in Arts District</div>
+<div class="rent-card-info">1 bed • 1 bath • 800 sq ft</div>
+</div>
+</div>
+
+<div class="rent-card">
+<img src="Images/Depth 7, Frame 3.jpg" alt="">
+<div class="rent-card-content">
+<div class="rent-card-title">Spacious House in Suburbs</div>
+<div class="rent-card-info">4 beds • 3 baths • 2,500 sq ft</div>
+</div>
+</div>
+
+<div class="rent-card">
+<img src="Images/Depth 7, Frame 4.jpg" alt="">
+<div class="rent-card-content">
+<div class="rent-card-title">Charming Studio in Historic Area</div>
+<div class="rent-card-info">1 bed • 1 bath • 600 sq ft</div>
+</div>
+</div>
+
+<div class="rent-card">
+<img src="Images/Depth 7, Frame 5.jpg" alt="">
+<div class="rent-card-content">
+<div class="rent-card-title">Luxury Condo with City Views</div>
+<div class="rent-card-info">2 beds • 2 baths • 1,500 sq ft</div>
+</div>
+</div>
+
+<div class="rent-card">
+    <img src="Images/Depth 7, Frame 6.jpg" alt="">
+    <div class="rent-card-content">
+    <div class="rent-card-title">Townhouse with Garden</div>
+    <div class="rent-card-info">3 beds • 2 baths • 1,800 sq ft</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<!-- ======================================= Page Number =========================================== -->
+<div class="pagination">
+    <button class="arrow-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+    </button>
+
+    <button class="page-num active">1</button>
+    <button class="page-num">2</button>
+    <button class="page-num">3</button>
+    <button class="page-num">4</button>
+
+    <button class="arrow-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+    </button>
+</div>
+
+<!-- ====================================== Footer ================================================ -->
+<footer>
+    <div class="container footer-content">
+
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="footer-social">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+        <p class="footer-copy">
+            © 2023 FindHome. All rights reserved.
+        </p>
+
+    </div>
+</footer>
+
+</body>
+</html>
